@@ -3,7 +3,8 @@ Jeu PIT par Louis et William sur la commande rm et le pipe
 
 ## BUT DU JEU 
 
-L'objectif est de trouver le bon fichier à supprimer pour gagner. 
+L'objectif est de déarmorcer la bombe en supprimant le bon fichier de son système.
+Si vous vous trompez, la bombe explose.
 Les commades utiles sont rm et le pipe |
 
 ## UTLISATION

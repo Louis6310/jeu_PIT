@@ -7,9 +7,9 @@ do
     touch "$i.txt"
 done
 
-echo "Bienvenue dans le jeu !"
-echo "Vous devez trouver le bon fichier à supprimer en trouvant son numéro."
-echo "Voici un message codé en hexadécimal qui pourrait vous aider :"
+echo "Bienvenue dans le jeu ! "
+echo "Pour désamorcer la bombe vous devez supprimer le bon fichier dans son système en trouvant son numéro. Sinon la bombe explose !"
+echo "Voici un message trouvé près de la bombe, codé en hexadécimal qui pourrait vous aider :"
 
 numero_a_trouver=$(( RANDOM % (max - min + 1) + min ))
 

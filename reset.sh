@@ -1,3 +1,5 @@
+#!/bin/bash
+
 min=100
 max=120
 

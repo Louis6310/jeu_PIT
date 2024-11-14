@@ -4,7 +4,7 @@ max=120
 
 for i in $(seq $min $max)
 do
-    rm "$i.txt"
+    rm "$i.txt"             #on supprime les fichiers un par un à l'aide d'une boucle
 done
 
 rm -r nepasouvrir
